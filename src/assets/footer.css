@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap");
+
+#footer {
+  background-color: #333;
+  color: #999;
+  font-size: 14px;
+}
+#footerIn {
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 30px 16px;
+}
+#footer hr {
+  border: 1px solid white;
+  opacity: 0.5;
+}
+#footer .copy {
+  text-align: center;
+  color: #c5c5c5;
+  margin-top: 30px;
+}
+.finfo span {
+  color: #c5c5c5;
+  font-weight: 600;
+}
+@media screen and (max-width: 1060) {
+  #footer {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+  #footerIn {
+    padding: 30px 16px;
+  }
+}

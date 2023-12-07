@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+.btn_top_display {
+  background: url(../../public/images/top_btn.svg) no-repeat;
+  bottom: 100px;
+  width: 50px;
+  background-color: #a91744;
+  height: 50px;
+  background-size: 26px;
+  background-position: 50%;
+  border-radius: 100%;
+  right: -60px;
+  position: fixed;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn_top_display.on {
+  right: 30px;
+}
+@media screen and (max-width: 1060px) {
+  .btn_top_display {
+    bottom: 50px;
+  }
+  .btn_top_display.on {
+    right: 16px;
+  }
+}
