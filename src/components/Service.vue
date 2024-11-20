@@ -8,7 +8,7 @@
     </div>
   </div>
   <div id="container">
-    <section class="moeugo">
+    <section class="ser_section1">
       <div class="btndiv">
         <button class="btn1">
           <a @click="down_sr()">Service1</a>
@@ -90,224 +90,6 @@
               <div class="flex-underbox">
                 <p>Text</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="blue">
-        <div class="blue-div">
-          <div class="div-img">
-            <img src="/public/images/sample230.jpg" class="logo-service" />
-          </div>
-          <p class="blue-t">
-            Lorem
-          </p>
-          <p><span class="blue-colort">Lorem ipsum dolor</span></p>
-          <div class="blue-b2b">
-            <p>lorem</p>
-          </div>
-          <div class="grid-service">
-            <div class="grid-display">
-              <div class="img_wrap">
-                <img src="/public/images/sample320.jpg" />
-              </div>
-              <div class="flex-divline">
-                <div class="flex-div">
-                  <img src="/public/images/skyblue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/skyblue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/skyblue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/skyblue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/skyblue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-              </div>
-            </div>
-            <div class="grid-under">
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="brown">
-        <div class="brown-div">
-          <div class="div-img">
-            <img src="/public/images/sample230.jpg" class="logo-service" />
-          </div>
-          <p class="brown-t">
-            Lorem ipsum
-          </p>
-          <p><span class="brown-colort mb_font">Lorem ipsum emit dolor,</span></p>
-          <div class="brown-b2b">
-            <p>lorem</p>
-          </div>
-          <div class="grid-service">
-            <div class="grid-display">
-              <div class="img_wrap">
-                <img src="/public/images/sample320.jpg" />
-              </div>
-              <div class="flex-divline">
-                <div class="flex-div">
-                  <img src="/public/images/blue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/blue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/blue_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-              </div>
-            </div>
-            <div class="grid-under">
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="green">
-        <div class="green-div">
-          <div class="div-img">
-            <img src="/public/images/sample230.jpg" class="logo-service" />
-          </div>
-          <p class="green-t">
-            Lorem
-          </p>
-          <p><span class="green-colort">Lorem ipsum emit, dolor</span></p>
-          <div class="green-b2b">
-            <p>lorem</p>
-          </div>
-          <div class="grid-service">
-            <div class="grid-display">
-              <div class="img_wrap">
-                <img src="/public/images/sample320.jpg" />
-              </div>
-              <div class="flex-divline">
-                <div class="flex-div">
-                  <img src="/public/images/green_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/green_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/green_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/green_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-                <div class="flex-div">
-                  <img src="/public/images/green_check.svg" />
-                  <p>Lorem ipsum dolor emit,</p>
-                </div>
-              </div>
-            </div>
-            <div class="grid-under">
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-              <div class="flex-underbox">
-                <p>Text</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="purple">
-        <div class="div-img">
-          <img src="/public/images/sample230.jpg" class="logo-service" />
-        </div>
-        <p class="purple-t">
-          Lorem
-        </p>
-        <p><span class="purple-colort mb_font2">Lorem ipsum emit, dolor</span></p>
-        <div class="service-end">
-          <p>lorem</p>
-        </div>
-        <div class="grid-service">
-          <div class="grid-display">
-            <div class="img_wrap">
-              <img src="/public/images/sample320.jpg" />
-            </div>
-            <div class="flex-divline">
-              <div class="flex-div">
-                <img src="/public/images/purple_check.svg" />
-                <p>Lorem ipsum dolor emit,</p>
-              </div>
-              <div class="flex-div">
-                <img src="/public/images/purple_check.svg" />
-                <p>Lorem ipsum dolor emit,</p>
-              </div>
-              <div class="flex-div">
-                <img src="/public/images/purple_check.svg" />
-                <p>Lorem ipsum dolor emit,</p>
-              </div>
-              <div class="flex-div">
-                <img src="/public/images/purple_check.svg" />
-                <p>Lorem ipsum dolor emit,</p>
-              </div>
-              <div class="flex-div">
-                <img src="/public/images/purple_check.svg" />
-                <p>Lorem ipsum dolor emit,</p>
-              </div>
-            </div>
-          </div>
-          <div class="grid-under">
-            <div class="flex-underbox">
-              <p>Text</p>
-            </div>
-            <div class="flex-underbox">
-              <p>Text</p>
-            </div>
-            <div class="flex-underbox">
-              <p>Text</p>
-            </div>
-            <div class="flex-underbox">
-              <p>Text</p>
             </div>
           </div>
         </div>
@@ -400,10 +182,10 @@
       </div>
     </section>
     <p ref="section_al" class="line"></p>
-    <section class="sirius">
+    <section class="ser_seciton2">
       <div class="section_title_box">
         <p class="section_title">
-          Lorem ipsum emit, dolor
+          Data chart
         </p>
       </div>
       <div class="gray_box">
@@ -412,7 +194,7 @@
             Lorem ipsum emit
           </p>
           <p class="leoalpha_boxfont">
-            Lorem ipsum emit
+            Lorem
           </p>
         </div>
         <p class="big-p">
@@ -660,7 +442,7 @@
             Lorem ipsum dolor emit, Lorem ipsum dolor emit,
           </p>
           <div class="contatct-border">
-            <a href="mailto:help@gmc-labs.com">help@help.com</a>
+            <a href="mailto:rlqjadl2222@naver.com">rlqjadl2222@naver.com</a>
           </div>
           <p class="unbox-p">
             Lorem ipsum dolor emit, Lorem ipsum dolor emit,

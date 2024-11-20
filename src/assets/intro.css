@@ -113,11 +113,8 @@ a {
 }
 
 /*section*/
-#container > section {
-  /* padding: 0 10px; */
-}
 
-#container > section.sirius {
+#container > section.ser_seciton2 {
   padding-top: 0px;
   max-width: 1060px;
   margin: 0px auto;
@@ -150,25 +147,24 @@ a {
   }
 }
 
-/* 08-30 */
-.sirius .leoalpha_div2 {
+.ser_seciton2 .leoalpha_div2 {
   display: grid;
   line-height: 1.4;
   margin-top: 30px;
   gap: 10px;
 }
 
-.sirius .leoalpha_div2 img {
+.ser_seciton2 .leoalpha_div2 img {
   padding-right: 10px;
 }
 
-.sirius .leoalpha_div2 p {
+.ser_seciton2 .leoalpha_div2 p {
   font-size: 18px;
   text-align: left;
   color: #000100;
 }
 
-.sirius .leoalpha_flex {
+.ser_seciton2 .leoalpha_flex {
   display: flex;
 }
 
@@ -176,7 +172,7 @@ a {
   display: flex;
 }
 
-.sirius .big-p {
+.ser_seciton2 .big-p {
   font-size: 18px;
   color: #000100;
   font-weight: 400;
@@ -196,7 +192,7 @@ a {
   margin-top: 15px;
 }
 
-.moeugo .btndiv {
+.ser_section1 .btndiv {
   width: 100%;
   display: flex;
   margin-top: 80px;
@@ -204,7 +200,7 @@ a {
   border: 1px solid #f3f3f3;
 }
 
-.moeugo .btndiv button {
+.ser_section1 .btndiv button {
   width: 100%;
   height: 70px;
   font-size: 18px;
@@ -214,7 +210,7 @@ a {
   transition: all 0.1s;
 }
 
-.moeugo .btndiv .btn1 {
+.ser_section1 .btndiv .btn1 {
   color: #a91744;
   background: white;
   font-weight: bold;
@@ -222,29 +218,29 @@ a {
   box-shadow: 5px 0px 10px -5px #ccc;
   z-index: 2;
 }
-.moeugo .btndiv button:hover {
+.ser_section1 .btndiv button:hover {
   box-shadow: 5px 0px 10px -5px #ccc;
   border-top: 4px solid #aa1744;
   background: white;
 }
-.moeugo .btndiv .btn1 a:hover {
+.ser_section1 .btndiv .btn1 a:hover {
   color: #aa1744;
 }
-.moeugo .btndiv .btn1 a {
+.ser_section1 .btndiv .btn1 a {
   color: #a91744;
   display: block;
   font-weight: bold;
 }
 
-.moeugo .btndiv .btn2 {
+.ser_section1 .btndiv .btn2 {
   z-index: 1;
   border-right: 1px solid #efefef;
 }
-.moeugo .btndiv .btn3 {
+.ser_section1 .btndiv .btn3 {
   z-index: 1;
 }
 
-.moeugo .btndiv .btn3:hover {
+.ser_section1 .btndiv .btn3:hover {
   box-shadow: -5px 0px 10px -5px #ccc;
 }
 
@@ -275,13 +271,13 @@ a {
   background: #aa1744;
 }
 
-.sirius .leoalpha_div {
+.ser_seciton2 .leoalpha_div {
   display: flex;
   text-align: left;
   align-items: center;
 }
 
-.sirius .leoalpha_font {
+.ser_seciton2 .leoalpha_font {
   color: #000100;
   font-size: 28px;
   text-align: left;
@@ -296,7 +292,7 @@ a {
   font-weight: bold;
 }
 
-.moeugo .btndiv button a {
+.ser_section1 .btndiv button a {
   color: #ccc;
   display: block;
   word-break: keep-all;
@@ -308,7 +304,7 @@ a {
   text-align: left;
 }
 
-.moeugo .btndiv button a:hover {
+.ser_section1 .btndiv button a:hover {
   color: #999;
 }
 .leoalpha_boxfont {
@@ -369,7 +365,7 @@ a {
   word-break: keep-all;
 }
 
-.sirius .service-box2 {
+.ser_seciton2 .service-box2 {
   margin-top: 80px;
   background: #fafafa;
   padding: 20px;
@@ -493,12 +489,7 @@ a {
   justify-content: center;
 }
 
-.purple-t {
-  color: #562aaa;
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
+
 
 .darkblue-t {
   color: #0a174e;
@@ -507,57 +498,8 @@ a {
   padding-bottom: 10px;
 }
 
-.brown-t {
-  color: #2b2826;
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.green-t {
-  color: #009b90;
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.blue-t {
-  color: #2a57d8;
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 10px;
-}
-
-.purple-colort {
-  background-color: #8475b1;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 2px 10px 2px 10px;
-}
-
 .darkblue-colort {
   background-color: #545d83;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 2px 10px 2px 10px;
-}
-
-.brown-colort {
-  background-color: #6b6967;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 2px 10px 2px 10px;
-}
-
-.green-colort {
-  background-color: #4db9b1;
-  color: #ffffff;
-  font-size: 16px;
-  padding: 2px 10px 2px 10px;
-}
-
-.blue-colort {
-  background-color: #6a89e4;
   color: #ffffff;
   font-size: 16px;
   padding: 2px 10px 2px 10px;
@@ -624,65 +566,6 @@ a {
   color: white;
 }
 
-.brown-b2b {
-  width: 160px;
-  height: 40px;
-  border: 2px solid #2b2826;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
-.brown-b2b p {
-  color: #2b2826;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.green-b2b {
-  width: 160px;
-  height: 40px;
-  border: 2px solid #009b90;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
-.green-b2b p {
-  color: #009b90;
-  font-size: 16px;
-  font-weight: bold;
-}
-.green-b2b .mobi_font {
-  font-size: 13px;
-}
-.service-end .mobi_font {
-  font-size: 13px;
-}
-.blue-b2b {
-  width: 160px;
-  height: 40px;
-  border: 2px solid #2a57d8;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
-.blue-b2b p {
-  color: #2a57d8;
-  font-size: 16px;
-  font-weight: bold;
-}
-
 .grid-service {
   margin-top: 80px;
 }
@@ -723,22 +606,6 @@ a {
   margin-bottom: 10px;
 }
 
-.brown {
-  padding-top: 160px;
-}
-
-.green {
-  padding-top: 160px;
-}
-
-.blue {
-  padding-top: 160px;
-}
-.purple {
-  padding-top: 160px;
-  padding-bottom: 100px;
-}
-
 .flex-underbox {
   background-color: #4f3a8f;
   height: 60px;
@@ -756,21 +623,6 @@ a {
 .darkblue .grid-under .flex-underbox {
   background-color: #0a174e;
   border: 1px solid #0a174e;
-}
-
-.brown .grid-under .flex-underbox {
-  background-color: #2b2826;
-  border: 1px solid #2b2826;
-}
-
-.green .grid-under .flex-underbox {
-  background-color: #009b90;
-  border: 1px solid #009b90;
-}
-
-.blue .grid-under .flex-underbox {
-  background-color: #2a57d8;
-  border: 1px solid #2a57d8;
 }
 
 .contact-t {
@@ -820,53 +672,19 @@ a {
   text-align: left;
 }
 
-.moeugo .mobile-img {
+.ser_section1 .mobile-img {
   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
-  .purple-t {
-    font-size: 30px;
-    padding-top: 10px;
-  }
-
+ 
   .darkblue-t {
     font-size: 30px;
     padding-top: 10px;
   }
 
-  .brown-t {
-    font-size: 30px;
-    padding-top: 10px;
-  }
-
-  .green-t {
-    font-size: 30px;
-    padding-top: 10px;
-  }
-
-  .blue-t {
-    font-size: 30px;
-    padding-top: 10px;
-  }
-
-  .purple-colort {
-    font-size: 14px;
-  }
 
   .darkblue-colort {
-    font-size: 14px;
-  }
-
-  .brown-colort {
-    font-size: 14px;
-  }
-
-  .green-colort {
-    font-size: 14px;
-  }
-
-  .blue-colort {
     font-size: 14px;
   }
 
@@ -917,7 +735,7 @@ a {
     margin-top: 20px;
     padding: 0 16px;
   }
-  .sirius .big-p {
+  .ser_seciton2 .big-p {
     font-size: 16px;
     margin-top: 12px;
     line-height: 1.4;
@@ -927,7 +745,7 @@ a {
     margin-top: 16px;
     line-height: 1.4;
   }
-  .sirius .leoalpha_div2 {
+  .ser_seciton2 .leoalpha_div2 {
     margin-top: 15px;
   }
   .grid-under {
@@ -978,7 +796,7 @@ a {
     width: 7px;
     height: 7px;
   }
-  .moeugo .section_title_box {
+  .ser_section1 .section_title_box {
     margin-bottom: 30px;
   }
   .gridcontainer {
@@ -996,23 +814,17 @@ a {
   }
 }
 @media screen and (max-width: 290px) {
-  .moeugo .btndiv button a {
+  .ser_section1 .btndiv button a {
     line-height: 1.4;
     padding-top: 15px;
   }
-  .brown-colort.mb_font {
-    font-size: 12px;
-  }
-  .purple-colort .mb_font2 {
-    font-size: 11px;
-  }
 }
-/* 08-30 end*/
-.sirius {
+
+.ser_seciton2 {
   text-align: center;
 }
 
-.sirius .logo {
+.ser_seciton2 .logo {
   display: block;
   max-width: 900px;
   height: 260px;
@@ -1026,7 +838,7 @@ a {
   border-bottom: 1px solid #bebebe;
 }
 
-.sirius h4 {
+.ser_seciton2 h4 {
   font-size: 30px;
   line-height: 40px;
   color: #562aaa;
@@ -1034,13 +846,13 @@ a {
   margin-top: 40px;
 }
 
-.sirius .btopen {
+.ser_seciton2 .btopen {
   padding: 20px;
   display: block;
   font-size: 16px;
 }
 
-.sirius .btopbtn a {
+.ser_seciton2 .btopbtn a {
   color: #562aaa;
   font-weight: 600;
   /* line-height: 1.2em; */
@@ -1056,7 +868,7 @@ a {
   font-size: 16px;
 }
 
-.sirius .btopbtn span {
+.ser_seciton2 .btopbtn span {
   color: #562aaa;
   font-weight: 600;
   /* line-height: 1.2em; */
@@ -1072,12 +884,12 @@ a {
   font-size: 16px;
 }
 
-.sirius .btopbtn a:hover {
+.ser_seciton2 .btopbtn a:hover {
   color: #fff;
   background-color: #562aaa;
 }
 
-.sirius .line {
+.ser_seciton2 .line {
   display: block;
   width: 1px;
   height: 60px;
@@ -1088,7 +900,7 @@ a {
   opacity: 0;
 }
 
-.sirius .ltxt {
+.ser_seciton2 .ltxt {
   line-height: 24px;
 }
 
@@ -1139,20 +951,20 @@ a {
   .darkblue-b2b {
     width: 110px;
   }
-  .sirius .logo {
+  .ser_seciton2 .logo {
     height: 220px;
     background-size: 300px auto;
   }
 
-  .sirius .leoalpha_font {
+  .ser_seciton2 .leoalpha_font {
     font-size: 24px;
   }
 
-  .moeugo .btndiv button {
+  .ser_section1 .btndiv button {
     font-size: 16px;
   }
 
-  .sirius h4 {
+  .ser_seciton2 h4 {
     font-size: 30px;
   }
 
@@ -1169,7 +981,7 @@ a {
     width: auto;
   }
 
-  .sirius .leoalpha_div2 p {
+  .ser_seciton2 .leoalpha_div2 p {
     font-size: 16px;
   }
 
@@ -1204,16 +1016,16 @@ a {
 }
 
 @media screen and (max-width: 460px) {
-  .sirius .logo {
+  .ser_seciton2 .logo {
     height: 220px;
     background-size: 200px auto;
   }
 
-  .moeugo .btndiv button {
+  .ser_section1 .btndiv button {
     font-size: 14px;
   }
 
-  .sirius .leoalpha_div2 .padding-5 {
+  .ser_seciton2 .leoalpha_div2 .padding-5 {
     padding-bottom: 10px;
   }
 
@@ -1221,11 +1033,11 @@ a {
     padding-bottom: 10px;
   }
 
-  .sirius .leoalpha_div2 p {
+  .ser_seciton2 .leoalpha_div2 p {
     font-size: 14px;
   }
 
-  .sirius .leoalpha_font {
+  .ser_seciton2 .leoalpha_font {
     font-size: 20px;
   }
 
@@ -1428,11 +1240,11 @@ a {
 }
 
 /*모으고*/
-.moeugo {
+.ser_section1 {
   text-align: center;
 }
 
-.moeugo .logo {
+.ser_section1 .logo {
   display: block;
   max-width: 900px;
   height: 260px;
@@ -1446,7 +1258,7 @@ a {
   border-bottom: 1px solid #bebebe;
 }
 
-.moeugo h4 {
+.ser_section1 h4 {
   font-size: 30px;
   line-height: 40px;
   color: #0f1f49;
@@ -1454,13 +1266,13 @@ a {
   margin-top: 40px;
 }
 
-.moeugo .btopen {
+.ser_section1 .btopen {
   padding: 20px;
   display: block;
   font-size: 16px;
 }
 
-.moeugo .btopbtn {
+.ser_section1 .btopbtn {
   color: #0f1f49;
   font-weight: 600;
   /* line-height: 1.2em; */
@@ -1476,7 +1288,7 @@ a {
   font-size: 16px;
 }
 
-.moeugo .btopbtn a {
+.ser_section1 .btopbtn a {
   color: #242424;
   font-weight: 600;
   /* line-height: 1.2em; */
@@ -1492,12 +1304,12 @@ a {
   font-size: 16px;
 }
 
-.moeugo .btopbtn a:hover {
+.ser_section1 .btopbtn a:hover {
   color: #fff;
   background-color: #000a66;
 }
 
-.moeugo .line {
+.ser_section1 .line {
   display: block;
   width: 1px;
   height: 60px;
@@ -1507,7 +1319,7 @@ a {
   margin-bottom: 40px;
 }
 
-.moeugo .ltxt {
+.ser_section1 .ltxt {
   line-height: 24px;
 }
 
@@ -1540,7 +1352,7 @@ a {
   display: block;
 }
 
-ul.phone_moeugo {
+ul.phone_ser_section1 {
   max-width: 1060px;
   margin: auto;
   text-align: center;
@@ -1548,30 +1360,30 @@ ul.phone_moeugo {
   justify-content: center;
 }
 
-ul.phone_moeugo li {
+ul.phone_ser_section1 li {
   /* width: 100% */
 }
 
-ul.phone_moeugo img {
+ul.phone_ser_section1 img {
   display: inline-block;
   height: auto;
   max-width: 300px;
 }
 
 @media screen and (max-width: 900px) {
-  ul.phone_moeugo img {
+  ul.phone_ser_section1 img {
     max-width: 240px;
     height: auto;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .moeugo .logo {
+  .ser_section1 .logo {
     height: 220px;
     background-size: 300px auto;
   }
 
-  .moeugo h4 {
+  .ser_section1 h4 {
     font-size: 30px;
   }
 
@@ -1580,7 +1392,7 @@ ul.phone_moeugo img {
     overflow: hidden;
   }
 
-  ul.phone_moeugo {
+  ul.phone_ser_section1 {
     max-width: 1060px;
     margin: auto;
     text-align: center;
@@ -1590,40 +1402,40 @@ ul.phone_moeugo img {
     width: 260px;
   }
 
-  /* ul.phone_moeugo li:nth-child(1) {
+  /* ul.phone_ser_section1 li:nth-child(1) {
         float: left;
         width: 48%;
         padding: 1%;
     }
 
-    ul.phone_moeugo li:nth-child(2) {
+    ul.phone_ser_section1 li:nth-child(2) {
         float: left;
         width: 48%;
         padding: 1%;
     }
 
-    ul.phone_moeugo li:nth-child(3) {
+    ul.phone_ser_section1 li:nth-child(3) {
         float: left;
         width: 32%;
         padding: 0.5%;
     }
 
-    ul.phone_moeugo li:nth-child(4) {
+    ul.phone_ser_section1 li:nth-child(4) {
         float: left;
         width: 32%;
         padding: 0.5%;
     }
 
-    ul.phone_moeugo li:nth-child(5) {
+    ul.phone_ser_section1 li:nth-child(5) {
         float: left;
         width: 32%;
         padding: 0.5%;
     } */
-  ul.phone_moeugo {
+  ul.phone_ser_section1 {
     flex-direction: column;
   }
 
-  ul.phone_moeugo img {
+  ul.phone_ser_section1 img {
     max-width: 360px;
     height: auto;
   }
@@ -1636,14 +1448,14 @@ ul.phone_moeugo img {
 }
 
 @media screen and (max-width: 400px) {
-  .moeugo .logo {
+  .ser_section1 .logo {
     height: 220px;
     background-size: 200px auto;
   }
 }
 
 @media screen and (max-width: 400px) {
-  ul.phone_moeugo img {
+  ul.phone_ser_section1 img {
     max-width: 340px;
     height: auto;
   }
@@ -2090,7 +1902,7 @@ ul.phone_moeugo img {
   .mainSlider h4 {
     font-size: 22px;
   }
-  .moeugo .btndiv {
+  .ser_section1 .btndiv {
     margin-top: 60px;
   }
   .div-img img {
@@ -2099,10 +1911,10 @@ ul.phone_moeugo img {
   .brown .div-img img {
     width: 230px;
   }
-  .moeugo .btndiv button {
+  .ser_section1 .btndiv button {
     height: 60px;
   }
-  .moeugo .btndiv button a {
+  .ser_section1 .btndiv button a {
     line-height: 60px;
   }
 }

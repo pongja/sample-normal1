@@ -173,7 +173,7 @@
         <p><span>Lorem</span> ipsum | <span>eamit</span> : dolor</p>
         <p><span>Lorem ipsum</span> : 123-12-123456</p>
         <p>Lorem ipsum dolor sit amet, 123-10</p>
-        <p>help@com.com</p>
+        <p>pongja@com.com</p>
       </div>
       <hr />
       <div class="copy">
